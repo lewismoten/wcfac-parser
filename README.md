@@ -1,6 +1,18 @@
 # wcfac-parser
 
-Needed
+A Node script that turns text copied from fuel card transaction reports (the kind found in board of supervisors packets) into a CSV file for spreadsheets.
+
+## Run
+
+Put the report text in `txt/<date>.txt`, set `date` at the top of `index.js` (`index-june.js` is an earlier variant), then:
+
+```bash
+npm start
+```
+
+It reads `txt/<date>.txt` and writes `txt/<date>.csv`, printing page, record and VIN counts.
+
+## The request this started from
 
 A raw data export of data used for fuel reports, commonly found in the board of supervisors board packets and reviewed by the finance/audit committee each month. I can see the data in PDF reports, but it is very difficult to bring the data into a spreadsheet. I would like the data in a machine readable format such as excel, xml, or CSV.
 
