@@ -1,3 +1,5 @@
+![wcfac-parser: Fuel card report text turned into CSV](docs/images/social-preview.png)
+
 # wcfac-parser
 
 A Node script that turns text copied from fuel card transaction reports (the kind found in board of supervisors packets) into a CSV file for spreadsheets.
